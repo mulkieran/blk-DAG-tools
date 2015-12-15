@@ -1,0 +1,7 @@
+recursive-include bin * 
+recursive-include doc *.rst *.py *.html
+include tox.ini
+include version.py
+global-include requirements.txt
+include LICENSE README.rst
+include setup.py
